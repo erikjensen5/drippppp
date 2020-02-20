@@ -4,7 +4,7 @@ let bounds = true;
 let numDrips=2000;
 
 function setup() {
-  createCanvas(1300, 1000);
+  createCanvas(windowWidth, windowHeight);
   for (let i=0;i<numDrips;i++){
   drippy.push(new drip());
   }
@@ -51,6 +51,10 @@ class drip{
     fill(255);
   }
     ellipse(this.x,this.y,this.diamter,this.diamter);
+    fill(255);
+    textSize(72);
+    textAlign(CENTER);
+    text("DRIPPPPPPPP",width/2,height/2);
   }
 }
   
