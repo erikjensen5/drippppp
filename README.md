@@ -4,7 +4,7 @@
     font-family: 'Heebo', sans-serif;
   }
 </style>
-<h1>Drippppp</h1>
-<p><b>Dynamic paint drip simulation in p5js.</b></p>
+<h1 style="font-family: 'Heebo', sans-serif">Drippppp</h1>
+<p style="font-family: 'Heebo', sans-serif"><b>Dynamic paint drip simulation in p5js.</b></p>
 
 https://xmeatballx.github.io/drippppp/
